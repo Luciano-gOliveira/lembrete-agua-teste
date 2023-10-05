@@ -38,6 +38,33 @@ img{
   justify-content: center;
   height: 40vh;
 }
+
+.entradas{
+  background-color: rgb(255, 224, 86);
+  border: 2px solid rgb(131, 85, 0);
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#peso{
+  border-radius: 5px;
+  border: 2px solid rgb(145, 99, 0);
+  background-color: rgb(255, 239, 150);
+}
+#idade{
+  border: 2px solid rgb(145, 99, 0);
+  border-radius: 5px;
+  background-color: rgb(255, 239, 150);
+}
+button{
+  color: white;
+  background-color: orange;
+  border-radius: 5px;
+  border: 2px solid rgb(145, 99, 0);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 .container{
   display: flex;
   flex-direction: column;
@@ -68,4 +95,13 @@ button {
 
 .banana-imagem{
   animation: banana 1s infinite;
+}
+
+#resultado{
+  font-family: Arial, Helvetica, sans-serif ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 13vh;
 }
